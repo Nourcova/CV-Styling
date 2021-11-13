@@ -184,7 +184,9 @@ h3:before{
     }
     #contact{
         position:static ;
-
+    }
+    #contact h3{
+        display: block;
     }
     .content{
         display: flex;
