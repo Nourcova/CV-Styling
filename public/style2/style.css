@@ -159,4 +159,57 @@ section{
   background-repeat: no-repeat;
 
 } */
+@media (max-width:992px){
+    body{
+        padding-inline: 10px;
+    }
+    figure{
+        display: none;
+    }
+    .content p{
+        width: 100%;
+    }
+    #competencies{
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    section h3{
+        margin-bottom: 30px !important;
+        border-right: none;
+        border-bottom: 1px solid black;
+        padding-right: 0px;
+    }
+    #experiences{
+        display: flex;
+        flex-direction: column;
+    }
+    #experiences p{
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+
+    #education{
+        display: flex;
+        flex-direction: column;
+        margin-top:50px;
+    }
+    #education p{
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    #hobbies{
+        display: flex;
+        flex-direction: column;
+    }
+    #hobbies h3{
+        margin-bottom:0!important;
+    }
+}
+@media (max-width:786px){
+    .contacts{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
 
