@@ -10,6 +10,9 @@
 header h2, #about h3{
     display:none;
 }
+figure img{
+    height: auto;
+}
 #about p{
     color:#999999;
 }

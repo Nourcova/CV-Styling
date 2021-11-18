@@ -17,6 +17,10 @@ body{
 header h1, header h2{
     color:red;
 }
+figure img{
+    width: 110px;
+    height: 110px;
+}
 .experience-type{
     font-weight: bold;
     color: red;
