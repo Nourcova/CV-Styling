@@ -41,6 +41,7 @@ figure img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-left:30px;
     padding-bottom: 30px;
+    border-radius: 10px;
 }
 .experience-type{
     font-weight: bold;
@@ -125,7 +126,6 @@ dd a{
     grid-column: 2/3;
 }
 section h3{
-    /* border-bottom: 3px solid #263068; */
     padding-bottom: 10px;
     color:#263068;
     font-size: 22px;
@@ -134,8 +134,8 @@ section h3{
     width: 90%;
     color:white;
     margin-bottom:3px;
-    /* padding: 4px; */
     border: 5px solid #263068;
+    background-color: #ffd18d;
 }
 .skills-primary .skill:nth-child(1) span{
     padding:4px;
@@ -227,11 +227,18 @@ h3:before{
         position:static ;
         width: 100%;
     }
-    .contact-email dd{
-        border-radius: 0 10px 0 0;
+
+    .contact-email {
+        border-radius: 10px 10px 0 0;
     }
-    .contact-facebook dd{
-        border-radius: 0 0 10px 0 ;
+    .contact-email dt{
+        border-radius: 10px 0 0 0;
+    }
+    .contact-facebook {
+        border-radius: 0 0 10px 10px ;
+    }
+    .contact-facebook dt {
+        border-radius: 0 0 0 10px ;
     }
     #contact h3{
         display: block;
